@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 MAINTAINER Brian Chen <brianchen.chen@mail.utoronto.ca
 
-RUN apt-get update && apt-get install -y build-essential
+RUN apt-get update && apt-get install -y build-essential valgrind
 
 RUN pip install --no-cache --upgrade pip && \
     pip install --no-cache notebook jupyterlab jupyter-c-kernel jupyterhub
