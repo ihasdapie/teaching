@@ -30,19 +30,3 @@ USER ${NB_USER}
 ENV SHELL /bin/bash
 
 WORKDIR ${HOME}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
